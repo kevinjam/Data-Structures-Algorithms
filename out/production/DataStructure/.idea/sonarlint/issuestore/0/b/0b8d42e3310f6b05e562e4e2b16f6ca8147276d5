@@ -1,9 +1,7 @@
 
-Y
-java:S4973"<Strings and Boxed types should be compared using "equals()".(›œÑê8ı¢Î¼‹2
-^
-java:S4973"<Strings and Boxed types should be compared using "equals()".(úŒß´ùÿÿÿÿ8ş¢Î¼‹2
 r
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒıÿÿÿÿ8—£Î¼‹2
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒıÿÿÿÿ8Ÿ²•½‹2
 V
-java:S1118":Add a private constructor to hide the implicit public one.(ÄØÒ 8—£Î¼‹2
+java:S1118":Add a private constructor to hide the implicit public one.(ÄØÒ 8Ÿ²•½‹2
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(îÉó»8 ²•½‹2

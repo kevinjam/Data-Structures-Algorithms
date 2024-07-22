@@ -58,4 +58,47 @@ public class BinaryTree {
         }
         return false;
     }
+
+    public void traversePreOrder(){
+        traversePreOrder(root);
+    }
+    private void traversePreOrder(Node root){
+        if (root == null) return;
+        System.out.println(root.value);
+        traversePreOrder(root.leftChild);
+        traversePreOrder(root.rightChild);
+    }
+
+    public void traverseInOrder(){
+        traverseInOrder(root);
+    }
+    private void traverseInOrder(Node root){
+        if (root==null)return;
+        traverseInOrder(root.leftChild);
+        System.out.println(root.value);
+        traverseInOrder(root.rightChild);
+    }
+
+    public void traversePostOrder(){
+        traversePostOrder(root);
+    }
+    private void traversePostOrder(Node root){
+        if (root == null)return;
+        traversePostOrder(root.leftChild);
+        traversePostOrder(root.rightChild);
+        System.out.println(root.value);
+    }
+
+    public int height(){
+        return height(root);
+    }
+    private int height(Node root){
+        if (root == null)
+            return -1;
+        else if (root.leftChild == null && root.rightChild==null)
+            return 0;
+        return 1 + Math.max(
+                height(root.leftChild),
+                height(root.rightChild));
+    }
 }

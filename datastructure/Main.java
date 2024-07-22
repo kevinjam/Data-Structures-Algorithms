@@ -21,17 +21,19 @@ public class Main {
 //        System.out.printf("Expression is balanced: %b", expressionBalanced);
 
 
-        BinaryTree binaryTree = new BinaryTree();
-        binaryTree.inset(7);
-        binaryTree.inset(4);
-        binaryTree.inset(1);
-        binaryTree.inset(6);
-        binaryTree.inset(8);
-        binaryTree.inset(9);
-        binaryTree.inset(10);
-        binaryTree.inset(15);
-        binaryTree.inset(14);
-        System.out.println(binaryTree.find(100));
+        BinaryTree tree = new BinaryTree();
+        tree.inset(7);
+        tree.inset(4);
+        tree.inset(9);
+        tree.inset(1);
+        tree.inset(6);
+        tree.inset(8);
+        tree.inset(10);
+//        tree.traversePreOrder();
+//        tree.traverseInOrder();
+//        tree.traversePostOrder();
+        System.out.println( tree.height());
+
     }
 
 

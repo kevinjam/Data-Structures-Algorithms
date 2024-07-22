@@ -41,3 +41,10 @@ L
 datastructure/StackData.java,e/6/e641724c8c84715c0a3c4ddc5cb324187f112f6c
 L
 datastructure/StacksFun.java,6/a/6aa462d963bff70b0057bc29ffcd6435aed0e395
+L
+datastructure/Factorial.java,7/c/7c4f8b4c063cc52bd840effa5626bdf69ca6bada
+G
+datastructure/Tree.java,3/0/304651294b5877f477b0bb2ddda9e24c5269a278
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
