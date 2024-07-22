@@ -15,3 +15,6 @@ B
 src/StackData.java,d/a/dac998e679949809f933dc6b49fff96ca82e6fd7
 B
 src/StacksFun.java,0/2/02f90c39e9bb23aa8348969e62a6c5c6c95a62eb
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

@@ -1,2 +1,7 @@
 #ignore .idea file
 .idea
+### Generated Mac .DS_Store ###
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea/sonarlint
